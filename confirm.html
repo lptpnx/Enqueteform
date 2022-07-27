@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>確認画面</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header>
+        <div class="container">
+          <a href="#">
+            <h1>
+              <img 
+              src="img/logo.png"
+              alt="TORUS"
+              width="70"
+              height="70">
+            </h1>
+          </a>
+          <nav>
+            <ul>
+            <li><a href="#">事業内容</a></li>
+              <li><a href="#">施設紹介</a></li>
+              <li><a href="#">アクセス</a></li>
+              <li><a href="#">よくある質問</a></li>
+              <li><a href="#">お問い合わせ</a></li>
+            </ul>
+          </nav>
+        </div>
+    </header>
+    <main>
+      <h1 class="h1.contact-ttl">Enquete</h1>
+      <h2>コロナワクチン接種後アンケート</h2>
+      <p>よろしければ「送信する」ボタンをクリックしてください。</p>
+      <form action="submit.php" method="post">
+        <table>
+          <tr>
+            <th>お名前</th>
+            <td>xxxxxx</td>
+          </tr>
+          <tr>
+            <th>性別</th>
+            <td>xx</td>
+          </tr>
+          <tr>
+            <th>メールアドレス</th>
+            <td>xxxx@xxxx.xxx</td>
+          </tr>
+          <tr>
+            <th>電話</th>
+            <td>xxxxxxxxxxx</td>
+          </tr>
+          <tr>
+            <th>職業</th>
+            <td>xx</td>
+          </tr>
+          <tr>
+            <th>保健所への相談を希望しますか</th>
+            <td>xxx</td>
+          </tr>
+          <tr>
+            <th>どのような副反応がありましたか？※複数選択可</th>
+            <td>xxxxxx</td>
+          </tr>
+          <tr>
+            <th>その他の副反応※その他を選んだ方のみ入力して下さい</th>
+            <td>xxxxx</td>
+          </tr>
+          <tr>
+            <th>２回目の接種もしたいと思いますか？</th>
+            <td>xxx</td>
+          </tr>
+          <tr>
+            <th>その他お問い合わせ</th>
+            <td>xxxx</td>
+          </tr>
+        </table>
+        <div class="btn-flex">
+          <input class="contact-back" type="button" value="書き直す" onclick="history.back();">
+          <input class="contact-submit2" type="button" value="送信する" onclick="location.href='submit.html'">
+        </div>
+      </form>
+    </main>
+    <footer>
+      <div class="container">
+        <small>(c) hm-s21018.com</small>
+        <ul>
+          <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+          <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+        </ul>
+      </div>
+    </footer>
+  </body> 
+</html>
